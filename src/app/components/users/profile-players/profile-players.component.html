@@ -1,0 +1,20 @@
+<div  class="panel-body">
+<div class="row">
+<div *ngIf="players" class="col-md-12">
+   	<ul class="list-group">
+    	<li class="list-group-item" *ngFor="let player of players">
+     		<app-profile-player [player]="player"></app-profile-player>	
+        </li> 
+    </ul>  
+    
+    <div *ngIf="players.length < 1" class="list-group">
+      	<div *ngIf="isOwner" class="list-group-item">
+      		<p>You don't add any players yet! <a routerLink="/players/add">Do you want to add one?</a></p>
+      	</div>
+      	<div *ngIf="!isOwner" class="list-group-item">
+     		<p>There are nothing to show!</p>
+     	</div>
+    </div> 
+</div> 
+</div> 
+</div> 

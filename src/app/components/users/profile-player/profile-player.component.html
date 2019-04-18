@@ -1,0 +1,18 @@
+<div *ngIf="player" class="row">
+	<div class="col-md-8">
+		<p class="white">
+			{{player.name}} 
+		</p>
+		<span>
+			Posted on {{player._kmd.ect | date}}
+		</span>
+	</div>
+	<div class="col-md-2">
+		<img *ngIf="canEdit" routerLink="/players/edit/{{player._id}}" class="icon edit-icon" src="http://www.iconhot.com/icon/png/bunch-cool-bluish-icons/256/edit-29.png" />
+      	&nbsp;
+      	<img *ngIf="canEdit" routerLink="/players/delete/{{player._id}}" class="icon delete-icon" src="https://cdn2.iconfinder.com/data/icons/e-business-helper/240/627249-delete3-256.png" />
+	</div>
+	<div class="col-md-2">
+		<a class="btn btn-default" routerLink="/players/review/{{player._id}}">View Review</a>
+	</div>
+</div>

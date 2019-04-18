@@ -31,7 +31,7 @@ export class AuthenticationService {
     }
     
     isAdmin() {
-        return (sessionStorage.getItem('role') == 'admin' && '5cb5b01d7aad974b2a3d416c' == sessionStorage.getItem('id'));
+        return (sessionStorage.getItem('role') == 'admin' && '5cb61195f1d010597950b896' == sessionStorage.getItem('id'));
     }
     
     login(loginModel : LoginModel) : Observable<Object> {

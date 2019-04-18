@@ -1,5 +1,5 @@
-<h1 [@fromLeft]>Login Form</h1>
-  <form [@fromRight] [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+<h1 >Login Form</h1>
+  <form  [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="form-group">
       <label for="username">Username</label>
       <input formControlName="username" type="text" class="form-control" id="username" 
@@ -19,4 +19,4 @@
     <button [disabled]="loginForm.invalid" type="submit" class="btn btn-success">Login</button>
   </form>
   <br />
-  <p [@fromLeft]><a routerLink="/auth/register">Don't have registration?</a></p>
+  <p ><a routerLink="/auth/register">Don't have registration?</a></p>
