@@ -1,16 +1,11 @@
 <div class="panel panel-default">
   <div [@fromLeft] class="panel-heading">
-     <h3 class="panel-title">Players in Bulgaria</h3> 
+     <h3 class="panel-title">All players</h3> 
      <div class="row col-md-12">
-        Sort by:  &nbsp;&nbsp;
-     <div *ngIf="authService.isLogged()">
-         	<select>
-         		<option (click)="change($event)" name="sortOpts" value="rating">Rating</option>         		
-         		<option (click)="change($event)" name="sortOpts" value="name">Name</option>
-         	</select>
-     </div>
+     
+
      <div *ngIf="!authService.isLogged()">
-     	<a routerLink="/auth/login">Login</a> to see sort options.
+     	<a routerLink="/auth/login">Login</a> to see all players.
      </div>
     </div>   
   </div> 

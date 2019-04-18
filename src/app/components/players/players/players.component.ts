@@ -30,32 +30,6 @@ export class PlayersComponent implements OnInit {
           });
   }
   
-  change(event){
-      if (event.target.value != this.selectedFieldName) {
-          this.selectedFieldName = event.target.name;
-         
-          switch (this.selectedFieldName) {
-        	case 'name':
-        	    this.orderByName();
-        		break;
-        	case 'rating':
-        	    this.orderByRating();
-                break;
-        	default:
-        	    this.orderByRating();
-        		break;
-          }
-      }
-  }
-  
-  orderByName() {
-      this.players = this.players.sort((a, b) => {
-        
-          return a.name.localeCompare(b.name); 
-          
-          
-       });
-  }
   
   orderByRating() {
       this.players = this.players.sort((a, b) => {

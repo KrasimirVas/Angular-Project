@@ -13,7 +13,7 @@ import { PlayerModel } from '../models/player';
 })
 export class PlayersService {
     private playersUrl : string = `${API_URL}appdata/${APP_KEY}/players`;
-    private sortThreeByRatingUrl : string = `${this.playersUrl}?query={}&sort={"rating": -1}&limit=3`;
+    private sortThreeByRatingUrl : string = `${this.playersUrl}?query={}&sort={"rating": -1}&limit=6`;
 
     constructor(private http : HttpClient,
             private authenticationServise : AuthenticationService) {  }
