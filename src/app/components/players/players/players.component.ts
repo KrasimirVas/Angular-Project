@@ -32,7 +32,8 @@ export class PlayersComponent implements OnInit {
   
   change(event){
       if (event.target.value != this.selectedFieldName) {
-          this.selectedFieldName = event.target.value;
+          this.selectedFieldName = event.target.name;
+         
           switch (this.selectedFieldName) {
         	case 'name':
         	    this.orderByName();
@@ -49,7 +50,10 @@ export class PlayersComponent implements OnInit {
   
   orderByName() {
       this.players = this.players.sort((a, b) => {
+        
           return a.name.localeCompare(b.name); 
+          
+          
        });
   }
   

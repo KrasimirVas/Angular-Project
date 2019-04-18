@@ -7,14 +7,13 @@ import { AuthenticationModule } from '../app/components/authentication/authentic
 import { AuthGuard } from './core/guards/auth/auth.guard';
 
 import { HomeComponent } from './components/landing/home/home.component';
-import { BlueScreenComponent } from './components/landing/blue-screen/blue-screen.component';
+
 import { BannedComponent } from './components/landing/banned/banned.component';
 import { NotFoundComponent } from './components/landing/not-found/not-found.component';
 
 const routes : Routes = [ 
        {path: '', component: HomeComponent },
-       {path: 'banned', component: BannedComponent },
-	   {path: 'blue-screen', component: BlueScreenComponent },
+       {path: 'banned', component: BannedComponent },	   
        {path: 'auth', loadChildren: '../app/components/authentication/authentication.module#AuthenticationModule'},
        {path: 'players', loadChildren: '../app/components/players/players.module#PlayersModule'},
        {path: 'users', loadChildren: '../app/components/users/users.module#UsersModule'},

@@ -9,7 +9,7 @@ import { HomeCommentsComponent } from './home-comments/home-comments.component';
 import { HomeCommentComponent } from './home-comment/home-comment.component';
 import { BannedComponent } from './banned/banned.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { BlueScreenComponent } from './blue-screen/blue-screen.component';
+
 
 @NgModule({
   imports: [
@@ -24,7 +24,7 @@ import { BlueScreenComponent } from './blue-screen/blue-screen.component';
     HomeCommentComponent,
     BannedComponent,
     NotFoundComponent,
-    BlueScreenComponent
+
   ],
   exports: [
     HomeComponent

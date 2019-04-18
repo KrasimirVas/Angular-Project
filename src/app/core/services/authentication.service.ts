@@ -18,9 +18,9 @@ export class AuthenticationService {
 
     constructor(private http : HttpClient) {  }
     
-/*    getBasicToken() {
+/*     getBasicToken() {
         return this.login({username: 'Koksal', password: '123456'});
-    }  */
+    }  */ 
     
     getUserId() {
         return sessionStorage.getItem('id');

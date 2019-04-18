@@ -5,8 +5,7 @@
         Sort by:  &nbsp;&nbsp;
      <div *ngIf="authService.isLogged()">
          	<select>
-         		<option (click)="change($event)" name="sortOpts" value="raiting">Raiting</option>
-         		<option (click)="change($event)" name="sortOpts" value="hotest">Hotest</option>
+         		<option (click)="change($event)" name="sortOpts" value="rating">Rating</option>         		
          		<option (click)="change($event)" name="sortOpts" value="name">Name</option>
          	</select>
      </div>
