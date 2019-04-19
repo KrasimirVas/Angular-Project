@@ -2,9 +2,9 @@
 	<img *ngIf="player.imageUrl" class="thumbnail"
 		src="{{player.imageUrl}}"> 
 	<h5>{{player.name}}</h5>
-	<p>club: {{player.club}}</p>
+	<p>Club: {{player.club}}</p>
 	<p>Rating: {{player.rating | number | number : '1.2-2'}}</p>
 	<p>
-		<a class="btn btn-default" routerLink="/players/review/{{player._id}}">View Review</a>
+		<a class="btn btn-success" routerLink="/players/review/{{player._id}}">View Review</a>
 	</p>
 </div>
