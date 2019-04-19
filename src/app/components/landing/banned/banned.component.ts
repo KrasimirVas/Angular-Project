@@ -10,6 +10,7 @@ export class BannedComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
 
 }
