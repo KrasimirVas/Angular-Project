@@ -10,7 +10,7 @@ import { appAnimations } from '../../../app.animations';
   selector: 'app-home-players',
   templateUrl: './home-players.component.html',
   styleUrls: ['./home-players.component.css'],
-  animations: [appAnimations]
+  animations: [appAnimations] 
 })
 export class HomePlayersComponent implements OnInit {
     players : PlayerModel[];

@@ -13,7 +13,7 @@ export class HomePlayerComponent implements OnInit {
   @Input() player : PlayerModel;
   constructor(public authService : AuthenticationService) { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }

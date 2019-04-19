@@ -8,7 +8,7 @@ import {
 import { Observable, throwError } from 'rxjs';
 import { catchError } from 'rxjs/operators';
 import { Injectable } from '@angular/core';
-import { ToastrService } from 'ngx-toastr';
+import { ToastrService } from 'ngx-toastr'; 
 
 @Injectable()
 export class ErrorInterceptor implements HttpInterceptor {

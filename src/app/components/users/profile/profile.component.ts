@@ -6,7 +6,7 @@ import { UsersService } from '../../../core/services/users.service';
 
 import { UserModel } from '../../../core/models/user';
 
-import { appAnimations } from '../../../app.animations';
+import { appAnimations } from '../../../app.animations'; 
 
 @Component({
   selector: 'app-profile',

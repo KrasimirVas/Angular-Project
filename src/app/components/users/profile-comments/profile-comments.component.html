@@ -1,7 +1,7 @@
 <div  class="panel-body">
 <div class="row">
 	<div *ngIf="comments" class="col-md-12">
-	  <ul class="list-group">
+	  <ul class="list-group"> 
 	      <li class="list-group-item" *ngFor="let comment of comments">
 	      	<app-profile-comment [comment]="comment"></app-profile-comment>
 	      </li>

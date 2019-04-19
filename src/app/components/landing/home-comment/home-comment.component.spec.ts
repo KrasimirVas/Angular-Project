@@ -9,7 +9,7 @@ describe('HomeCommentComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ HomeCommentComponent ]
-    })
+    }) 
     .compileComponents();
   }));
 

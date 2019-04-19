@@ -6,7 +6,7 @@ import { CommentsService } from '../../../core/services/comments.service';
 import { CommentModel } from '../../../core/models/comment';
 
 import { appAnimations } from '../../../app.animations';
-
+ 
 @Component({
   selector: 'app-profile-comments',
   templateUrl: './profile-comments.component.html',

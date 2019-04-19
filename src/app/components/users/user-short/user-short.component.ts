@@ -4,7 +4,7 @@ import { Router } from "@angular/router";
 import { UsersService } from '../../../core/services/users.service';
 import { AuthenticationService } from '../../../core/services/authentication.service';
 
-import { UserModel } from '../../../core/models/user';
+import { UserModel } from '../../../core/models/user'; 
 
 @Component({
   selector: 'app-user-short',

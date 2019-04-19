@@ -11,7 +11,7 @@ describe('PlayersComponent', () => {
       declarations: [ HomePlayersComponent ]
     })
     .compileComponents();
-  }));
+  })); 
 
   beforeEach(() => {
     fixture = TestBed.createComponent(HomePlayersComponent);

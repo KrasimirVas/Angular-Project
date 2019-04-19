@@ -9,7 +9,7 @@ import { PlayersService } from '../../../core/services/players.service';
 import { PlayerModel } from '../../../core/models/player';
 
 import { appAnimations } from '../../../app.animations';
-
+ 
 @Component({
   selector: 'app-player-delete',
   templateUrl: './player-delete.component.html',

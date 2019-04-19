@@ -9,7 +9,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 import { Router } from "@angular/router";
-import { ToastrService } from 'ngx-toastr';
+import { ToastrService } from 'ngx-toastr'; 
 
 import { APP_KEY, APP_SECRET } from '../constants/api.constants';
 

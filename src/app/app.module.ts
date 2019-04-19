@@ -6,17 +6,13 @@ import { Routes, RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ToastrModule } from 'ngx-toastr';
 
-
 import { AuthenticationModule } from './components/authentication/authentication.module';
 import { SharedModule } from './components/shared/shared.module';
 import { LandingModule } from './components/landing/landing.module';
 import { UsersModule } from './components/users/users.module';
-
 import { AppComponent } from './app.component';
-
 import { TokenInterceptor } from './core/interceptors/token.interceptor';
 import { ErrorInterceptor } from './core/interceptors/error.interceptor';
-
 import { AuthenticationService } from './core/services/authentication.service';
 
 @NgModule({
@@ -39,14 +35,12 @@ import { AuthenticationService } from './core/services/authentication.service';
     {
         provide: HTTP_INTERCEPTORS,
         useClass: TokenInterceptor,
-        multi: true
-        
+        multi: true        
     },
     {
         provide: HTTP_INTERCEPTORS,
         useClass: ErrorInterceptor,
-        multi: true
-        
+        multi: true        
     }
   ],
   bootstrap: [AppComponent]

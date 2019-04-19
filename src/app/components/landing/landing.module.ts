@@ -24,7 +24,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
     HomeCommentComponent,
     BannedComponent,
     NotFoundComponent,
-
+ 
   ],
   exports: [
     HomeComponent

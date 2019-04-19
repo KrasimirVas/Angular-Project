@@ -9,7 +9,7 @@ describe('ProfileCommentsComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ ProfileCommentsComponent ]
-    })
+    }) 
     .compileComponents();
   }));
 

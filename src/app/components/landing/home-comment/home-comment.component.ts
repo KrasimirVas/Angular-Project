@@ -13,7 +13,7 @@ export class HomeCommentComponent implements OnInit {
   @Input() comment : CommentModel;
   constructor(public authService : AuthenticationService) { }
 
-  ngOnInit() {
+  ngOnInit() { 
   }
 
 }

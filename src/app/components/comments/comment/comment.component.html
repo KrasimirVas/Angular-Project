@@ -1,7 +1,7 @@
 <div *ngIf="comment">
 <div *ngIf="!activeEdit" class="row">
 <div class="col-md-8">
-<p class="white">{{comment.text}}</p>
+<p class="white">{{comment.text}}</p> 
 <span class="small italic">
 Posted by <a routerLink="/users/profile/{{comment._acl.creator}}">{{comment.username}}</a> on {{comment._kmd.ect | date}}
 </span> 

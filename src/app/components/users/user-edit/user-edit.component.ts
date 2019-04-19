@@ -11,7 +11,7 @@ import { ToastrService } from 'ngx-toastr';
 import { UserModel } from '../../../core/models/user';
 
 import { appAnimations } from '../../../app.animations';
-
+ 
 @Component({
   selector: 'app-user-edit',
   templateUrl: './user-edit.component.html',

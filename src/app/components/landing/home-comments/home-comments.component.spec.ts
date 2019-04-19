@@ -4,7 +4,7 @@ import { HomeCommentsComponent } from './home-comments.component';
 
 describe('HomeCommentsComponent', () => {
   let component: HomeCommentsComponent;
-  let fixture: ComponentFixture<HomeCommentsComponent>;
+  let fixture: ComponentFixture<HomeCommentsComponent>; 
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({

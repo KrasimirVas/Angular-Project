@@ -5,9 +5,7 @@ import { PlayersModule } from './components/players/players.module';
 import { AuthenticationModule } from '../app/components/authentication/authentication.module';
 
 import { AuthGuard } from './core/guards/auth/auth.guard';
-
 import { HomeComponent } from './components/landing/home/home.component';
-
 import { BannedComponent } from './components/landing/banned/banned.component';
 import { NotFoundComponent } from './components/landing/not-found/not-found.component';
 

@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './banned.component.html',
   styleUrls: ['./banned.component.css']
 })
-export class BannedComponent implements OnInit {
+export class BannedComponent implements OnInit { 
 
   constructor() { }
 

@@ -11,7 +11,7 @@ describe('ProfileCommentComponent', () => {
       declarations: [ ProfileCommentComponent ]
     })
     .compileComponents();
-  }));
+  })); 
 
   beforeEach(() => {
     fixture = TestBed.createComponent(ProfileCommentComponent);

@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthenticationService } from '../../../core/services/authentication.service';
 import { PlayersService } from '../../../core/services/players.service';
 
-import { HomePlayersComponent } from '../home-players/home-players.component';
+import { HomePlayersComponent } from '../home-players/home-players.component'; 
 
 @Component({
   selector: 'app-home',

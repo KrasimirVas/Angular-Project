@@ -3,7 +3,7 @@ import { Observable } from 'rxjs';
 import { Router } from "@angular/router";
 
 import { AuthenticationService } from '../../../core/services/authentication.service';
-import { UsersService } from '../../../core/services/users.service';
+import { UsersService } from '../../../core/services/users.service'; 
 
 import { UserModel } from '../../../core/models/user';
 

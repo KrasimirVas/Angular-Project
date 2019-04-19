@@ -6,7 +6,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { CommentsService } from '../../core/services/comments.service';
 
 import { CommentComponent } from './comment/comment.component';
-import { CommentsComponent } from './comments/comments.component';
+import { CommentsComponent } from './comments/comments.component'; 
 
 @NgModule({
   imports: [

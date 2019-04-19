@@ -5,7 +5,7 @@ describe('CommentsModule', () => {
 
   beforeEach(() => {
     commentsModule = new CommentsModule();
-  });
+  }); 
 
   it('should create an instance', () => {
     expect(commentsModule).toBeTruthy();

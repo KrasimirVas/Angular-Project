@@ -5,13 +5,13 @@ import { PlayerDeleteComponent } from './player-delete.component';
 describe('PlayerDeleteComponent', () => {
   let component: PlayerDeleteComponent;
   let fixture: ComponentFixture<PlayerDeleteComponent>;
-
+ 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ PlayerDeleteComponent ]
     })
     .compileComponents();
-  }));
+  })); 
 
   beforeEach(() => {
     fixture = TestBed.createComponent(PlayerDeleteComponent);

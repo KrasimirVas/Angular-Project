@@ -37,7 +37,7 @@ export class PlayerAddComponent implements OnInit {
         this.playersService.addPlayer(this.playerForm.value).subscribe(data => {
             this.router.navigate(['/players']);
             this.toastr.success('Successfully add ' +  this.playerForm.value.name + '!');
-        });
+        }); 
     }
 
 }

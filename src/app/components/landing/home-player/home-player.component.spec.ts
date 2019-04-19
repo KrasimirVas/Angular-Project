@@ -9,7 +9,7 @@ describe('PlayersComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ HomePlayerComponent ]
-    })
+    }) 
     .compileComponents();
   }));
 

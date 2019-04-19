@@ -15,7 +15,7 @@ import { appAnimations } from '../../../app.animations';
 export class HomeCommentsComponent implements OnInit {
   comments : CommentModel[];
 
-  constructor(private commentsService : CommentsService) { }
+  constructor(private commentsService : CommentsService) {  }
 
   ngOnInit() {
       this.commentsService

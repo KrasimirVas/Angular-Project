@@ -7,7 +7,7 @@ import { AuthenticationService } from '../../../core/services/authentication.ser
 
 import { CommentModel } from '../../../core/models/comment';
 
-import { appAnimations } from '../../../app.animations';
+import { appAnimations } from '../../../app.animations'; 
 
 @Component({
   selector: 'app-comment',

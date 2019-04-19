@@ -6,7 +6,7 @@ describe('LandingModule', () => {
   beforeEach(() => {
     landingModule = new LandingModule();
   });
-
+ 
   it('should create an instance', () => {
     expect(landingModule).toBeTruthy();
   });

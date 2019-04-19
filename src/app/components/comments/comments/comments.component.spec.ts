@@ -11,8 +11,8 @@ describe('CommentsComponent', () => {
       declarations: [ CommentsComponent ]
     })
     .compileComponents();
-  }));
-
+  })); 
+ 
   beforeEach(() => {
     fixture = TestBed.createComponent(CommentsComponent);
     component = fixture.componentInstance;

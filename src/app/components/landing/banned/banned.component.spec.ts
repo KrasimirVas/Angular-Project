@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BannedComponent } from './banned.component';
+import { BannedComponent } from './banned.component'; 
 
 describe('BannedComponent', () => {
   let component: BannedComponent;

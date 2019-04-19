@@ -4,7 +4,7 @@ import { CommentComponent } from './comment.component';
 
 describe('CommentComponent', () => {
   let component: CommentComponent;
-  let fixture: ComponentFixture<CommentComponent>;
+  let fixture: ComponentFixture<CommentComponent>; 
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({

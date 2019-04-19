@@ -10,7 +10,7 @@ describe('PlayerAddComponent', () => {
     TestBed.configureTestingModule({
       declarations: [ PlayerAddComponent ]
     })
-    .compileComponents();
+    .compileComponents(); 
   }));
 
   beforeEach(() => {

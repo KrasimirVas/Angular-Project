@@ -9,7 +9,7 @@ import { CommentModel } from '../../../core/models/comment';
 
 import { appAnimations } from '../../../app.animations';
 
-@Component({
+@Component({ 
   selector: 'app-profile-comment',
   templateUrl: './profile-comment.component.html',
   styleUrls: ['./profile-comment.component.css'],

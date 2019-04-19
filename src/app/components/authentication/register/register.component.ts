@@ -16,11 +16,11 @@ import { appAnimations } from '../../../app.animations';
 export class RegisterComponent implements OnInit {
   
   registerForm = new FormGroup({
-      username: new FormControl('', [Validators.required, Validators.pattern(/^[A-Za-z0-9]{3,}$/)]),
+      username: new FormControl('', [Validators.required, Validators.pattern(/^[A-Za-z0-9]{3,15}$/)]),
       email: new FormControl('', [Validators.required, Validators.pattern(/^[a-z]+@[a-z]+\.[a-z]+$/)]),
       password: new FormControl('', [Validators.required, Validators.pattern(/^[A-Za-z0-9]{3,16}$/)]),
       confirmPassword: new FormControl('', [Validators.required, this.isMatchPassword()])
-  });
+  }); 
     
   constructor(private authService : AuthenticationService,
           private router: Router) { }

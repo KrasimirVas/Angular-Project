@@ -1,6 +1,6 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PlayerReviewComponent } from './player-review.component';
+import { PlayerReviewComponent } from './player-review.component'; 
 
 describe('PlayerReviewComponent', () => {
   let component: PlayerReviewComponent;
